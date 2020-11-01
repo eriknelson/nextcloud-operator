@@ -1,0 +1,6 @@
+apiVersion: operators.nsk.io/v1alpha1
+kind: Nextcloud
+metadata:
+  name: nextcloud-sample
+spec:
+  foo: bar

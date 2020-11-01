@@ -37,4 +37,21 @@ rules:
       - patch
       - update
       - watch
+  ##
+  ## Rules for operators.nsk.io/v1alpha1, Kind: Nextcloud
+  ##
+  - apiGroups:
+      - operators.nsk.io
+    resources:
+      - nextclouds
+      - nextclouds/status
+      - nextclouds/finalizers
+    verbs:
+      - create
+      - delete
+      - get
+      - list
+      - patch
+      - update
+      - watch
 # +kubebuilder:scaffold:rules
