@@ -1,0 +1,4 @@
+domain: operators.nsk.io
+layout: ansible.sdk.operatorframework.io/v1
+projectName: nextcloud-operator
+version: 3-alpha
